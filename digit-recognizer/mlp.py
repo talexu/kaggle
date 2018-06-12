@@ -17,7 +17,7 @@ from keras.optimizers import RMSprop
 
 batch_size = 128
 num_classes = 10
-epochs = 200
+epochs = 20
 
 # the data, split between train and test sets
 train = pd.read_csv(r'./.data/train.csv')
